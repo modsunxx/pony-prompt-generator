@@ -1,0 +1,80 @@
+@import 'tailwindcss';
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #f4f7f6;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+.form-container {
+	max-width: 450px;
+	margin: 3rem auto;
+	padding: 2rem;
+	background-color: #ffffff;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+	margin-top: 0;
+	margin-bottom: 1.5rem;
+	color: #2c3e50;
+	text-align: center;
+}
+
+.input-group {
+	margin-bottom: 1.5rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.input-group label {
+	margin-bottom: 0.5rem;
+	font-weight: 600;
+	font-size: 0.9rem;
+	color: #555;
+}
+
+.input-group input {
+	padding: 0.8rem;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	font-size: 1rem;
+	transition: border-color 0.2s ease-in-out;
+}
+
+.input-group input:focus {
+	outline: none;
+	border-color: #3498db;
+	box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+.input-group input:disabled {
+	background-color: #e9ecef;
+	cursor: not-allowed;
+}
+
+.helper-text {
+	margin-top: 0.4rem;
+	font-size: 0.8rem;
+	color: #e67e22;
+}
+
+.submit-btn {
+	width: 100%;
+	padding: 0.85rem;
+	background-color: #3498db;
+	color: white;
+	border: none;
+	border-radius: 6px;
+	font-size: 1rem;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background-color 0.2s;
+}
+
+.submit-btn:hover {
+	background-color: #2980b9;
+}
