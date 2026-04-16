@@ -58,7 +58,7 @@
 	let appearance = $state('');
 	let outfit = $state('');
 	let location = $state('');
-	let pose = $state('');
+	let pose = $state('');  
 
 	// 🆕 ตัวแปรใหม่สำหรับสกัดของไม่ต้องการ
 	let unwanted = $state('');
